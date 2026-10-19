@@ -1,0 +1,153 @@
+/* =========================================================
+   TEMA ALICIA EN EL PAÍS DE LAS MARAVILLAS: azul Alicia,
+   corazones de la Reina, cartas, relojes y tablero
+   ========================================================= */
+@import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Mea+Culpa&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap");
+
+:root {
+  --t-primario: #3c78a8;
+  --t-acento: #c8283c;
+  --t-texto: #2d3e50;
+  --t-card: #f2f8fc;
+  --t-borde: rgba(60, 120, 168, 0.5);
+  --t-boton: linear-gradient(135deg, #6fb0dc, #3c78a8);
+  --t-boton-texto: #fff;
+  --t-brillo: rgba(111, 176, 220, 0.4);
+  --t-font-script: "Mea Culpa", cursive;
+  --t-font-titulo: "Fondamento", cursive;
+  --t-font-texto: "Cormorant Garamond", serif;
+  --t-icono-dia: "♥";
+  --tablero: repeating-conic-gradient(#1d1d1d 0 25%, #fdfdfd 0 50%) 0 0 / 16px 16px;
+}
+
+/* Naipes cayendo */
+.carta {
+  width: 26px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+.carta.roja {
+  color: #c8283c;
+}
+.carta.negra {
+  color: #1d1d1d;
+}
+
+/* Franjas de tablero de ajedrez como separadores */
+.section-calendario::before,
+.box-message::before {
+  content: "";
+  display: block;
+  height: 16px;
+  width: 100%;
+  margin-bottom: 1rem;
+  background: var(--tablero);
+  border-radius: 3px;
+  opacity: 0.85;
+}
+
+/* Sombrero, conejo e iconos se tambalean */
+.box-info img {
+  animation: tambaleo 3s ease-in-out infinite;
+}
+@keyframes tambaleo {
+  0%,
+  100% {
+    transform: rotate(-8deg) translateY(0);
+  }
+  50% {
+    transform: rotate(8deg) translateY(-6px);
+  }
+}
+
+/* Títulos de cuento */
+.frase-l h1,
+.box-info h1 {
+  font-family: var(--t-font-titulo);
+}
+.timer-titulo,
+.section-message b {
+  font-family: var(--t-font-titulo);
+  font-size: 1.9rem;
+  color: var(--t-primario);
+}
+.timer-titulo::after {
+  content: " ⏱";
+  display: inline-block;
+  animation: tictac 1s steps(2) infinite;
+}
+@keyframes tictac {
+  50% {
+    transform: rotate(15deg);
+  }
+}
+
+/* Contador como relojes de bolsillo del Conejo Blanco */
+.date-time li {
+  border-radius: 50%;
+  aspect-ratio: 1;
+  height: auto;
+  border: 3px double #b08d3c;
+  background: radial-gradient(circle, #fffdf6 55%, #f1e6c8);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+.date-time li::before {
+  content: "♥";
+  color: var(--t-acento);
+  font-size: 0.7rem;
+}
+.date-time .time_number {
+  color: var(--t-texto);
+  font-size: 1.3rem;
+}
+
+/* Tarjetas como naipes */
+.box-place,
+.box-place-salon {
+  border: 2px solid var(--t-acento);
+  border-radius: 12px;
+  background: #fff;
+}
+.box-place::before,
+.box-place-salon::before {
+  content: "♥";
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  color: var(--t-acento);
+  font-size: 1.2rem;
+}
+.box-place-salon::before {
+  content: "♠";
+  color: #1d1d1d;
+}
+
+.confirmar {
+  background: var(--t-boton);
+  border-color: var(--t-primario);
+}
+.confirmar a {
+  color: #fff;
+}
+
+/* "Bébeme": el sello crece y se encoge */
+.wax-seal {
+  cursor: pointer;
+  animation: bebeme 2.5s ease-in-out infinite;
+}
+@keyframes bebeme {
+  0%,
+  100% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.12;
+  }
+}
