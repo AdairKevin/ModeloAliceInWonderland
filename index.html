@@ -1,0 +1,309 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invitacion Lesly Michelle</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+  </head>
+
+  <body class="center">
+    <!-- SOBRE DE BIENVENIDA -->
+    <div class="envelope-screen" id="envelopeScreen">
+      <div class="envelope">
+        <div class="envelope-flap"></div>
+
+        <!-- Flap inferior -->
+        <div class="wax-seal" id="openEnvelope"></div>
+      </div>
+    </div>
+
+    <div class="invitation-content hidden" id="invitationContent">
+      <!-- TODO tu contenido actual -->
+
+      <div class="content">
+        <section class="section-home">
+          <div class="home-content">
+            <img
+              class="home-img"
+              alt="photo"
+              src="./assets/img/fondo inicial.jpg"
+            />
+            <div class="titulo">
+              <h1>Mis XV</h1>
+              <h2>Lesly Michelle</h2>
+            </div>
+          </div>
+        </section>
+
+        <section class="musica">
+          <div class="music-card">
+            <div class="album-art"></div>
+            <div class="song-title">Alice in wonderland</div>
+            <div class="artist-name"></div>
+
+            <button class="play-button" id="playPauseBtn">▶</button>
+
+            <div class="progress-container">
+              <div class="progress" id="progressBar"></div>
+            </div>
+
+            <audio
+              id="audioPlayer"
+              src="./assets/music/Alice's Theme From Alice in Wonderland_Soundtrack Version.mp3"
+            ></audio>
+            <!-- Cambia por tu archivo mp3 -->
+          </div>
+        </section>
+
+        <div class="img-separador">
+          <img src="./assets/img/portada1.jpeg" alt="separador" />
+        </div>
+
+        <section class="section-info">
+          <div class="overlay-section-info">
+            <span></span>
+            <span></span>
+          </div>
+          <div class="box-info">
+            <div class="info-primary">
+              <p>
+                QUERIDOS AMIGOS Y FAMILIARES, TENGO EL GUSTO DE INVITARLOS
+                <br />
+                <br />
+                A CELEBRAR CONMIGO UNO DE LOS DIAS MAS IMPORTANTES DE MI VIDA
+                <br />
+                <br />
+                JUNTO CON MIS PADRES Y PADRINOS, QUIENES ME HAN ACOMPAÑADO EN
+                CADA PASO.
+              </p>
+            </div>
+
+            <div class="padrinos">
+              <p>Mis padres</p>
+              <h2>José Raymundo García Hernández</h2>
+              <h2>María del Carmen García Tejeda</h2>
+            </div>
+
+            <div class="padrinos">
+              <p>Acompañados de mis padrinos</p>
+              <h2>Ramón García Martínez</h2>
+              <h2>Cruz Dora Hernández Santos</h2>
+            </div>
+
+            <div class="frase-l">
+              <h1>Mis XV</h1>
+            </div>
+
+            <div class="nombre">
+              <h2>Lesly Michelle</h2>
+            </div>
+
+            <div class="fecha">
+              <p>Se realizará el día</p>
+            </div>
+
+            <div class="date-box">
+              <h2 class="dia">SÁBADO</h2>
+              <h1>01/08/2026</h1>
+              <h2 class="hora">a las 16:00 hrs</h2>
+            </div>
+          </div>
+        </section>
+
+        <div class="timer">
+          <h1 class="timer-titulo">Solo faltan:</h1>
+          <ul class="date-time">
+            <li>
+              <div class="time_number" id="dias"></div>
+              <div class="time_txt">Días</div>
+            </li>
+            <li>
+              <div class="time_number" id="horas"></div>
+              <div class="time_txt">Horas</div>
+            </li>
+            <li>
+              <div class="time_number" id="minutos"></div>
+              <div class="time_txt">Minutos</div>
+            </li>
+            <li>
+              <div class="time_number" id="segundos"></div>
+              <div class="time_txt">Segundos</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="img-separador">
+          <img src="./assets/img/21.jpeg" alt="separador" />
+        </div>
+
+        <section class="section-place">
+          <div class="box-place">
+            <div class="place-info center">
+              <img
+                width="75"
+                src="./assets/icons/church.svg"
+                alt="church"
+                fill="#000000"
+              />
+              <div class="place-txt">
+                <h2>Ceremonia</h2>
+                <p><b>4:00 PM</b> Parroquia de Nuestra Señora de la Soledad</p>
+              </div>
+            </div>
+            <a
+              class="place-btn"
+              href="#"
+              target="_blank"
+            >
+              VER UBICACIÓN
+            </a>
+          </div>
+        </section>
+
+        <section class="section-place-salon">
+          <div class="box-place-salon">
+            <div class="place-info center">
+              <img width="120" src="./assets/icons/bola.png" alt="disco" />
+              <div class="place-txt fiesta">
+                <h2>Recepción</h2>
+                <p><b>5:30 PM</b> Sur 2-A, entre Ote 36-A y 37</p>
+              </div>
+            </div>
+            <a
+              class="place-btn"
+              href="#"
+              target="_blank"
+            >
+              VER UBICACIÓN
+            </a>
+          </div>
+        </section>
+
+        <div class="img-separador">
+          <img src="./assets/img/31.jpeg" alt="separador" />
+        </div>
+
+        <section class="timeline">
+          <h2></h2>
+
+          <img
+            width="200"
+            src="./assets/img/conejo2.png"
+            alt="separator"
+            class="timeline-separator"
+          />
+
+          <div class="timeline-container">
+            <div class="event left">
+              <div class="sign">
+                <span class="time">04:00 PM</span>
+                <p>Ceremonia</p>
+              </div>
+            </div>
+
+            <div class="event right">
+              <div class="sign">
+                <span class="time">05:30 PM</span>
+                <p>Recepción</p>
+              </div>
+            </div>
+
+            <div class="event left">
+              <div class="sign">
+                <span class="time">06:00 PM</span>
+                <p>Comida</p>
+              </div>
+            </div>
+
+            <div class="event right">
+              <div class="sign">
+                <span class="time">08:00 PM</span>
+                <p>Baile</p>
+              </div>
+            </div>
+
+            <div class="event left">
+              <div class="sign">
+                <span class="time">09:00 PM</span>
+                <p>Vals</p>
+              </div>
+            </div>
+
+            <div class="event right">
+              <div class="sign">
+                <span class="time">10:30 PM</span>
+                <p>Pastel</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-galeria">
+          <section class="section-info-adicional">
+            <div class="info-block info-clothes">
+              <img height="70" src="./assets/icons/Clothes.svg" alt="clothes" />
+              <h2>Vestimenta</h2>
+              <p>
+                Formal y cómodo. Nos encantará verlos brillar en este día,
+                recordando que el tono azul cielo o parecidos se ha reservado
+                únicamente para la quinceañera, pero cualquier elección elegante
+                será perfecta para compartir esta ocasión tan especial juntos.
+              </p>
+            </div>
+
+            <div class="info-separator">
+              <img
+                width="200"
+                src="./assets/img/separador.png"
+                alt="separator"
+              />
+            </div>
+
+            <div class="info-block info-envelope">
+              <img
+                width="70"
+                src="./assets/icons/envelope.svg"
+                alt="envelope"
+              />
+              <h2>Mesa de regalos</h2>
+              <p>
+                Su presencia es nuestro mayor regalo, pero si desean tener un
+                detalle, cualquier muestra de cariño será recibida con profunda
+                gratitud. Dejamos a su libre elección el presente que deseen
+                brindarme en este dia.
+              </p>
+            </div>
+          </section>
+        </section>
+
+        <section class="section-message">
+          <div class="box-message">
+            <p>
+              Los mejores momentos de la vida <br />
+              merecen ser compartidos
+            </p>
+            <b>¡Gracias por acompañarnos!</b>
+            <button class="confirmar">
+              <a href="#"> Confirmar asistencia </a>
+            </button>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+          Diseña tu invitación con
+          <a
+            href="https://www.facebook.com/profile.php?id=61568997140138"
+            target="_blank"
+            >Mirai</a
+          >
+        </footer>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

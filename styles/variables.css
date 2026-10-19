@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quintessential&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap");
+
+:root {
+  /* Boda DBZ: Azul Rey & Plata (Estilo Royal Saiyan) */
+  --gold-gradient: linear-gradient(120deg, #221c2f, #7fa8ff, #3f5fa8, #bdd5fd);
+
+  --gradient-titulo: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #dff7ff 15%,
+    #81d4fa 30%,
+    #29b6f6 45%,
+    #0277bd 60%,
+    #81d4fa 75%,
+    #ffffff 90%,
+    #4fc3f7 100%
+  );
+  --rose: #002545;
+  --rose-main: #002347;
+  --rose-light: #ffffff;
+
+  --musica-card: #0277bd;
+  --gold-elegant: #0277bd;
+  --bg-card: #f3f8ff; /* blanco puro */
+  --gray-pearl: #000000;
+  --ivory-paper: #ffffff; /* blanco puro */ /* blanco con tono azulado */
+
+  --bg-section-light: #00232f; /* azul casi negro */
+  --bg-section-dark: #000000; /* negro profundo */
+
+  --bg-gradient: linear-gradient(
+    131deg,
+    #0d1b2a -3.63%,
+    #1b263b 60.5%,
+    #000000 100.94%
+  );
+  --font-titulos: "Playfair Display", serif;
+  --font-subtitulos: "Great Vibes", cursive;
+  --font-texto: "PT Serif", serif;
+}
