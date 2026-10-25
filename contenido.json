@@ -1,0 +1,168 @@
+{
+  "_instrucciones": "Aquí se cambian TODOS los textos, fotos, links y datos de la invitación. Para ocultar una sección pon su clave en false (ejemplo: \"instagram\": false) o agrega \"mostrar\": false dentro de ella para conservar sus textos. Los textos aceptan <br /> para saltos de línea. La fecha de evento.inicio la usan la cuenta regresiva y el calendario.",
+  "pagina": {
+    "titulo": "Invitacion Lesly Michelle"
+  },
+  "evento": {
+    "inicio": "2026-08-01T16:00",
+    "duracionHoras": 6,
+    "tituloCalendario": "XV años de Lesly Michelle",
+    "lugarCalendario": "Lugar del evento"
+  },
+  "sobre": {
+    "tooltip": "Da click",
+    "carta": "Estás invitado",
+    "cartaNombre": "Lesly Michelle"
+  },
+  "portada": {
+    "foto": "./assets/img/fondo inicial.jpg",
+    "fotoAlt": "photo",
+    "titulo": "Mis XV",
+    "nombre": "Lesly Michelle"
+  },
+  "musica": {
+    "cancion": "Alice in wonderland",
+    "artista": "",
+    "archivo": "./assets/music/Alice's Theme From Alice in Wonderland_Soundtrack Version.mp3",
+    "botonFlotanteAria": "Pausar o reproducir música"
+  },
+  "separadores": {
+    "despuesMusica": [
+      "./assets/img/xv1.jpg"
+    ],
+    "despuesCuentaRegresiva": [
+      "./assets/img/xv2.jpg"
+    ],
+    "antesCronograma": [
+      "./assets/img/xv3.jpg"
+    ]
+  },
+  "dedicatoria": false,
+  "invitacion": {
+    "saludo": "QUERIDOS AMIGOS Y FAMILIARES, TENGO EL GUSTO DE INVITARLOS <br /><br />A CELEBRAR CONMIGO UNO DE LOS DIAS MAS IMPORTANTES DE MI VIDA <br /><br />JUNTO CON MIS PADRES Y PADRINOS, QUIENES ME HAN ACOMPAÑADO EN CADA PASO.",
+    "familiaArriba": [
+      {
+        "titulo": "Mis padres",
+        "nombres": [
+          "José Raymundo García Hernández",
+          "María del Carmen García Tejeda"
+        ]
+      },
+      {
+        "titulo": "Acompañados de mis padrinos",
+        "nombres": [
+          "Ramón García Martínez",
+          "Cruz Dora Hernández Santos"
+        ]
+      }
+    ],
+    "fraseTitulo": "Mis XV",
+    "nombre": "Lesly Michelle",
+    "fechaTexto": "Se realizará el día",
+    "fecha": {
+      "dia": "SÁBADO",
+      "fecha": "01/08/2026",
+      "hora": "a las 16:00 hrs"
+    }
+  },
+  "calendario": {
+    "titulo": "Reserva la fecha",
+    "botonGoogle": "Google Calendar",
+    "botonIcs": "Apple / Outlook"
+  },
+  "cuentaRegresiva": {
+    "titulo": "Solo faltan:",
+    "dias": "Días",
+    "horas": "Horas",
+    "minutos": "Minutos",
+    "segundos": "Segundos"
+  },
+  "ubicaciones": {
+    "ceremonia": {
+      "titulo": "Ceremonia",
+      "hora": "4:00 PM",
+      "lugar": "Parroquia de Nuestra Señora de la Soledad",
+      "mapa": "#",
+      "boton": "VER UBICACIÓN"
+    },
+    "recepcion": {
+      "titulo": "Recepción",
+      "hora": "5:30 PM",
+      "lugar": "Sur 2-A, entre Ote 36-A y 37",
+      "mapa": "#",
+      "boton": "VER UBICACIÓN"
+    }
+  },
+  "itinerario": {
+    "titulo": "",
+    "imagen": "./assets/img/conejo2.png",
+    "actividades": [
+      {
+        "hora": "04:00 PM",
+        "actividad": "Ceremonia"
+      },
+      {
+        "hora": "05:30 PM",
+        "actividad": "Recepción"
+      },
+      {
+        "hora": "06:00 PM",
+        "actividad": "Comida"
+      },
+      {
+        "hora": "08:00 PM",
+        "actividad": "Baile"
+      },
+      {
+        "hora": "09:00 PM",
+        "actividad": "Vals"
+      },
+      {
+        "hora": "10:30 PM",
+        "actividad": "Pastel"
+      }
+    ]
+  },
+  "instagram": {
+    "titulo": "Captura el momento",
+    "texto": "¡No llegues tarde! Comparte tus fotos de este día maravilloso y etiqueta a la quinceañera.",
+    "usuario": "@usuario",
+    "hashtag": "#MisXV",
+    "link": "#",
+    "boton": "Etiquetar en Instagram"
+  },
+  "vestimenta": {
+    "titulo": "Vestimenta",
+    "texto": "Formal y cómodo. Nos encantará verlos brillar en este día, recordando que el tono azul cielo o parecidos se ha reservado únicamente para la quinceañera, pero cualquier elección elegante será perfecta para compartir esta ocasión tan especial juntos."
+  },
+  "regalos": {
+    "titulo": "Mesa de regalos",
+    "texto": "Su presencia es nuestro mayor regalo, pero si desean tener un detalle, cualquier muestra de cariño será recibida con profunda gratitud. Dejamos a su libre elección el presente que deseen brindarme en este dia."
+  },
+  "confirmacion": {
+    "frase": "Los mejores momentos de la vida <br />merecen ser compartidos",
+    "destacado": "¡Gracias por acompañarnos!",
+    "titulo": "Confirma tu asistencia",
+    "campoNombre": "Nombre completo",
+    "opcionSi": "Sí asistiré",
+    "opcionNo": "No podré ir",
+    "campoAsistentes": "Número de asistentes",
+    "campoMensaje": "Mensaje para la festejada (opcional)",
+    "boton": "Enviar por WhatsApp",
+    "gracias": "¡Gracias por tu respuesta!",
+    "whatsapp": "",
+    "mensajeWhatsapp": {
+      "saludo": "¡Hola! Soy",
+      "asiste": "Confirmo mi asistencia a XV años de Lesly Michelle ✨",
+      "asistentes": "Número de asistentes",
+      "noAsiste": "Lamentablemente no podré asistir a XV años de Lesly Michelle.",
+      "mensaje": "Mensaje"
+    }
+  },
+  "footer": {
+    "texto": "Diseña tu invitación con",
+    "marca": "Mirai",
+    "link": "https://www.facebook.com/profile.php?id=61568997140138",
+    "anio": ""
+  }
+}
